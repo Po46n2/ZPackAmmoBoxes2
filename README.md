@@ -1,4 +1,4 @@
-# ZPackAmmoBox2
+# ZPack Ammo Boxes 2
 Mod for the game Barotrauma
 
 Added Items:
