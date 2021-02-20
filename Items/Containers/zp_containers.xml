@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Shotgun Ammo Box" identifier="zp_ammobox2_shotgun" category="Equipment" aliases="shotgun ammo box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
+    <Price baseprice="20" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="2" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="1" minavailable="4" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="5">
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredSkill identifier="mechanical" level="15" />
+      <Item identifier="plastic" />
+    </Fabricate>
+    <InventoryIcon texture="zp_containers.png" sourcerect="0,0,56,34" origin="0.5,0.5" />
+    <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,0,56,34" origin="0.5,0.5" />
+    <Body width="56" height="33" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer autofill="False" capacity="2" keepopenwhenequipped="true" containedstateindicatorstyle="bullet">
+      <Containable identifiers="shell,shotgunammo" />
+    </ItemContainer>
+  </Item>
+  <Item name="Revolver Ammo Box" identifier="zp_ammobox2_revolver" category="Equipment" aliases="revolver ammo box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
+    <Price baseprice="20" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="2" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="1" minavailable="4" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="5">
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredSkill identifier="mechanical" level="15" />
+      <Item identifier="plastic" />
+    </Fabricate>
+    <InventoryIcon texture="zp_containers.png" sourcerect="0,36,56,34" origin="0.5,0.5" />
+    <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,36,56,34" origin="0.5,0.5" />
+    <Body width="56" height="33" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer autofill="False" capacity="4" keepopenwhenequipped="true" containedstateindicatorstyle="bullet">
+      <Containable identifiers="revolverammo" />
+    </ItemContainer>
+  </Item>
+  <Item name="Harpoon Stack" identifier="zp_ammobox2_harpoon" category="Equipment" aliases="harpoon stack,harpoon ammo box" tags="mediumitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+    <Price baseprice="20" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="2" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="1" minavailable="4" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="3">
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="10" />
+      <Item identifier="rubber" />
+    </Fabricate>
+    <InventoryIcon texture="zp_containers.png" sourcerect="119,1,64,64" origin="0.5,0.5" />
+    <Sprite texture="zp_containers_sprite.png" depth="0.54" sourcerect="0,0,177,14" origin="0.5,0.5" />
+    <Body width="176" height="14" density="20" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-4" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer autofill="False" capacity="2" keepopenwhenequipped="true" containedstateindicatorstyle="spear">
+      <Containable identifiers="harpoonammo" />
+    </ItemContainer>
+  </Item>
+  <Item name="SMG Magazine Stack" identifier="zp_ammobox2_smg" category="Equipment" aliases="smg ammo box, smg magazine stack" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+    <Price baseprice="20" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="2" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="1" minavailable="4" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="3">
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="10" />
+      <Item identifier="rubber" />
+    </Fabricate>
+    <InventoryIcon texture="zp_containers.png" sourcerect="188,4,55,64" origin="0.5,0.5" />
+    <Sprite texture="zp_containers.png" depth="0.54" sourcerect="188,4,55,64" origin="0.500425,0.49753398" />
+    <Body width="56" height="33" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer autofill="False" capacity="2" keepopenwhenequipped="true" containedstateindicatorstyle="bullet">
+      <Containable identifiers="smgammo" />
+    </ItemContainer>
+  </Item>
+</Items>

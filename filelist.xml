@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="ZPackAmmoBoxes2" path="Mods/ZPackAmmoBoxes2/filelist.xml" corepackage="false" gameversion="0.10.5.1">
+  <Item file="Mods/ZPackAmmoBoxes2/Items/Containers/zp_containers.xml" />
+  <None file="Mods/ZPackAmmoBoxes2/Items/Containers/zp_containers.png" />
+  <None file="Mods/ZPackAmmoBoxes2/Items/Containers/zp_containers_sprite.png" />
+</contentpackage>
